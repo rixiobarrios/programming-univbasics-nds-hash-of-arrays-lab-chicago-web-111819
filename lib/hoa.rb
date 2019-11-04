@@ -6,6 +6,7 @@ BASE_HOA = {
 
 
 def add_character(show, name)
+  #make your code reusable, [show] and (name) are your arguments and/or parameters
   BASE_HOA[show].push(name)
   # Write your implementation here
   # Should return the array of the 'show' argument
